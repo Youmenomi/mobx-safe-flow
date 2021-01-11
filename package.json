@@ -1,6 +1,6 @@
 {
   "name": "mobx-safe-flow",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mobx asynchronous actions are integrated into safe-flow.",
   "keywords": [
     "typescript",
