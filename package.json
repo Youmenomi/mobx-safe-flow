@@ -83,7 +83,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "safe-flow": "^0.3.2"
+    "safe-flow": "0.3.3"
   },
   "peerDependencies": {
     "mobx": "^6.0.5"
