@@ -6432,10 +6432,10 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-safe-flow@0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/safe-flow/-/safe-flow-0.3.3.tgz#bf09a7912fcbc83193b036a5d025891f8c946e16"
-  integrity sha512-3rB35RSVqSvWQ1Brp+dY84zs/aogPCM5ZyKA3U6F+ia7JTdx1Lb6H86WZo1XhsUhj0xqh6+S+wbg8tQeNqf5FA==
+safe-flow@0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/safe-flow/-/safe-flow-0.3.4.tgz#89ed269a15bf6d30f73a460cb62ace6bc6b1036e"
+  integrity sha512-VpEgb1vwBcME1CXG/FjXXjdpcj8pKkCy19ZSL3M4TnMvNJitwMoUGj8JKOAVqsuyLpr2IfnLD4wSQbl8ECb/Ww==
   dependencies:
     catch-first "^0.3.2"
     custom-defaults "^0.1.1"
