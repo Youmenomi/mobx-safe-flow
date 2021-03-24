@@ -8,7 +8,7 @@ import {
   SafeFlowCreator,
   flow as originalFlow,
   Plugin,
-} from './original';
+} from 'safe-flow';
 
 export * from 'safe-flow';
 
@@ -49,7 +49,7 @@ class MobxPlugin implements Plugin {
 }
 const plugin: MobxPlugin = new MobxPlugin();
 
-export function flowup<T = any>(target: T, options?: FlowupOptions) {
+export function xflowup<T = any>(target: T, options?: FlowupOptions) {
   if (options) {
     options.plugins = options.plugins
       ? [plugin as Plugin].concat(options.plugins)
@@ -60,7 +60,7 @@ export function flowup<T = any>(target: T, options?: FlowupOptions) {
   return originalFlowup(target, options);
 }
 
-export function flow<TReturn = any, TParam extends any[] = any>(
+export function xflow<TReturn = any, TParam extends any[] = any>(
   func: (...args: TParam) => Promise<TReturn>,
   options?: FlowOptions
 ): SafeFlowCreator<TReturn, ThisParameterType<typeof func>, TParam> {

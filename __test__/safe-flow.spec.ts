@@ -1,7 +1,7 @@
 import {
-  flow,
+  xflow as flow,
   flowable,
-  flowup,
+  xflowup as flowup,
   Canceled,
   cancel,
   cancelAll,
